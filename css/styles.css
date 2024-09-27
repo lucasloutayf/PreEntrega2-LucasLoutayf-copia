@@ -1,0 +1,179 @@
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Radio Canada Big";
+}
+/* Sobrescribir la fuente globalmente para todo el documento */
+body, p, a, div, span, button, input, textarea, label, h1, h2, h3, h4, h5, h6, .btn, .alert, .navbar,.navbar-brand, .nav-link, .dropdown-menu, .modal-title, .card-title, .card-text, .card-header, footer {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/* Header */
+.navbar-brand {
+    font-size: 2rem;
+    color: #000;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Presentación */
+.section__presentacion {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.div__presentacion h2 {
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.div__presentacion img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tienda */
+.section__tienda a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.section__tienda a:hover {
+    background-color: #0056b3;
+}
+
+/* Estudio */
+.title__estudio {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.text__estudio {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer__item {
+    color: #fff;
+}
+
+
+/* Formulario de contacto */
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    border: 2px solid #ccc;
+    padding: 0.5rem;
+}
+form button {
+    background-color: #007bff;
+    color: white;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Tarjetas en servicios */
+.tarjeta img {
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta h2 {
+    font-size: 1.5rem;
+}
+
+.tarjeta p {
+    color: #555;
+}
+
+.tarjeta a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.tarjeta a:hover {
+    color: #0056b3;
+}
+
+/* mapa */
+
+.mapa{
+    width: 600px;
+    height: 450px;
+}
+
+
+/* Media queries */
+
+    @media (max-width: 768px) {
+        .carousel-inner .carousel-item {
+            height: 300px; 
+        }
+    
+        .title__estudio {
+            font-size: 20px;
+        }
+    
+        .text__estudio {
+            font-size: 14px;
+        }
+    
+        .p__tienda {
+            font-size: 16px;
+        }
+        
+    }
+    
+    @media (max-width: 480px) {
+        .carousel-inner .carousel-item {
+            height: 200px; 
+        }
+    
+        .item__presentacion {
+            font-size: 16px;
+        }
+    
+        .title__estudio {
+            font-size: 18px;
+        }
+    
+        .text__estudio {
+            font-size: 12px;
+        }
+    
+        .p__tienda {
+            font-size: 14px;
+        }
+    
+        .footer__item {
+            font-size: 12px;
+        }
+    }
+
+
